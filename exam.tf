@@ -12,7 +12,7 @@ providers "aws"{
     secrect_key="kOQkERbxQI6iV85FqwKJfWFZd9s7TTHJSy/7o63k"
 }
 resource "aws_instance" "aws"{
-    ami=""
+    ami="ami-0d52744d6551d851e "
     instance_type="t2.micro"
 }
 output "public_ip" {
