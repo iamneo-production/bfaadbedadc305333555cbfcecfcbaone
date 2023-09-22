@@ -15,6 +15,6 @@ resource "aws_instance" "aws"{
     ami=""
     instance_type="t2.micro"
 }
-output  {
-  
+output "public_ip" {
+  value=aws_instance.linux_server.public_ip
 }
