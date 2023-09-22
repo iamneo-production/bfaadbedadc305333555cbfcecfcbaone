@@ -8,8 +8,8 @@ terraform{
 }
 providers "aws"{
     region="Tokyo"
-    access_key=""
-    secrect_key=""
+    access_key="AKIAXMO5XJSORMOXITMM"
+    secrect_key="kOQkERbxQI6iV85FqwKJfWFZd9s7TTHJSy/7o63k"
 }
 resource "aws_instance" "aws"{
     ami=""
